@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viager au Pays Basque, dans les Landes et à Pau — Océan Viager</title>
+<meta name="description" content="Conseil indépendant en viager au Pays Basque, dans le sud des Landes et à Pau. Vendre ou acquérir en viager : explications claires, simulateur, accompagnement jusqu'au notaire et après la signature.">
+<meta name="theme-color" content="#09173c">
+<meta property="og:title" content="Océan Viager — Le viager, un contrat entre deux générations">
+<meta property="og:description" content="Vendre ou acquérir en viager au Pays Basque, dans les Landes et en Béarn, avec un contrat compris par les deux parties avant d'être signé.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Océan Viager",
+  "description": "Conseil et accompagnement en viager",
+  "areaServed": ["Pays Basque", "Biarritz", "Bayonne", "Anglet", "Saint-Jean-de-Luz", "Hossegor", "Capbreton", "Dax", "Pau", "Béarn"],
+  "telephone": "À COMPLÉTER",
+  "email": "contact@oceanviager.com",
+  "url": "https://www.oceanviager.com"
+}
+</script>
+<style>
+:root{
+  --navy:#09173C; --navy-deep:#060F2A; --navy-soft:#13224F;
+  --gold:#DCC4A0; --gold-light:#CDB58C; --gold-ink:#7A5F33;
+  --off:#F5F5F5; --paper:#FFFFFF;
+  --ink:#09173C; --text:#2B3350; --muted:#5C627A;
+  --rule:rgba(9,23,60,.14);
+  --on-navy:#F5F5F5; --on-navy-2:#D7DCE8; --on-navy-muted:#B9C0D6; --rule-navy:rgba(220,196,160,.28);
+  --display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --body:"Lora",Georgia,"Times New Roman",serif;
+  --brand:"Cinzel",Georgia,serif;
+  --wrap:1180px; --pad:clamp(20px,4vw,48px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:128px}
+body{margin:0;background:var(--off);color:var(--text);font:400 18px/1.68 var(--body);-webkit-font-smoothing:antialiased;text-wrap:pretty}
+h1,h2,h3{margin:0}
+h2{font:500 clamp(34px,3.8vw,52px)/1.08 var(--display);letter-spacing:-.01em;color:var(--ink)}
+h3{font:600 clamp(23px,2vw,26px)/1.2 var(--display);color:var(--ink);margin-bottom:10px}
+p{margin:0 0 1em}
+a{color:var(--gold-ink);text-underline-offset:3px}
+a:hover{color:var(--ink)}
+:focus-visible{outline:3px solid var(--gold-ink);outline-offset:3px}
+.band :focus-visible,.top :focus-visible,.foot :focus-visible{outline-color:var(--gold)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+.skip{position:absolute;left:-9999px;top:0;background:var(--navy);color:#fff;padding:10px 16px;z-index:99}
+.skip:focus{left:10px;top:10px}
+.todo{background:#FFF1B8;color:#5A4400;padding:0 .3em;font-style:italic}
+.band .todo,.foot .todo,.top .todo{background:rgba(220,196,160,.2);color:#fff;outline:1px dashed rgba(220,196,160,.8)}
+
+/* Sections */
+.block{padding:clamp(64px,8vw,112px) 0}
+.lined{border-top:1px solid var(--rule)}
+.band{background:var(--navy);color:var(--on-navy)}
+.band h2{color:#fff}
+.band a{color:var(--gold)}
+.band a:hover{color:#fff}
+.shead{max-width:780px;margin-bottom:clamp(32px,4vw,56px)}
+.sname{margin:0 0 12px;font:600 16px/1.3 var(--body);color:var(--gold-ink)}
+.band .sname{color:var(--gold)}
+.orn{display:block;width:72px;height:12px;color:var(--gold-light);margin:20px 0 0}
+.band .orn{color:var(--gold)}
+.lead{font-size:clamp(19px,1.5vw,21px);line-height:1.6;color:var(--text);max-width:62ch;margin:20px 0 0}
+.band .lead{color:var(--on-navy-2)}
+.muted{color:var(--muted)}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:12px 28px;border-radius:2px;font:600 17px/1.2 var(--body);text-decoration:none;cursor:pointer;border:2px solid var(--navy);transition:background .15s,color .15s,border-color .15s;text-align:center}
+.btn-navy{background:var(--navy);color:var(--off)}
+.btn-navy:hover{background:var(--navy-soft);border-color:var(--navy-soft);color:#fff}
+.btn-outline{background:transparent;color:var(--navy)}
+.btn-outline:hover{background:rgba(9,23,60,.07);color:var(--navy)}
+.band .btn-gold{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.band .btn-gold:hover{background:#EBDCC0;border-color:#EBDCC0;color:var(--navy)}
+.band .btn-outline{color:var(--off);border-color:rgba(245,245,245,.6)}
+.band .btn-outline:hover{border-color:#fff;background:rgba(245,245,245,.08);color:#fff}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+
+/* Header */
+.top{position:sticky;top:0;z-index:30;background:var(--navy);color:var(--on-navy);box-shadow:0 1px 0 rgba(220,196,160,.3)}
+.top .bar{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:74px}
+.logo{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--on-navy)}
+.logo svg{width:54px;height:30px;color:var(--gold);flex:none}
+.logo b{font:600 17px/1 var(--brand);letter-spacing:.24em;text-transform:uppercase;white-space:nowrap;padding-top:2px}
+.call{display:inline-flex;align-items:center;gap:10px;color:var(--gold);text-decoration:none;font:600 19px/1.2 var(--body);white-space:nowrap}
+.call:hover{color:#fff}
+.call svg{flex:none}
+.call .lbl{display:none}
+nav.menu{position:relative;border-top:1px solid var(--rule-navy);overflow-x:auto;scrollbar-width:none}
+nav.menu::-webkit-scrollbar{display:none}
+.menu-wrap{position:relative}
+.menu-wrap::after{content:"";position:absolute;top:1px;right:0;bottom:0;width:56px;background:linear-gradient(90deg,rgba(9,23,60,0),var(--navy) 75%);pointer-events:none;opacity:0}
+@media (max-width:1100px){.menu-wrap::after{opacity:1}}
+nav.menu ul{list-style:none;margin:0 auto;padding:0 var(--pad);max-width:var(--wrap);display:flex;gap:28px;white-space:nowrap}
+nav.menu a{display:block;line-height:46px;font-size:16px;color:var(--on-navy-2);text-decoration:none;border-bottom:2px solid transparent}
+nav.menu a:hover{color:#fff}
+nav.menu a.on{color:var(--gold);border-bottom-color:var(--gold)}
+@media (max-width:600px){.logo b{font-size:14px;letter-spacing:.2em}.logo svg{width:44px;height:25px}.call{font-size:17px}.call .tel{display:none}.call .lbl{display:inline}}
+
+/* Hero */
+.hero{background:var(--navy);color:var(--on-navy)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center;padding-top:clamp(56px,8vw,120px);padding-bottom:clamp(56px,8vw,120px)}
+.hero h1{font:500 clamp(42px,5.4vw,78px)/1.04 var(--display);letter-spacing:-.012em;color:#fff;margin:0 0 28px;text-wrap:balance}
+.hero .lead{color:var(--on-navy-2);max-width:54ch;margin:0 0 36px}
+.hero .note{margin:28px 0 0;color:var(--on-navy-muted);font-size:17px;max-width:52ch}
+.hero-art{position:relative;padding:28px}
+.hero-art::before{content:"";position:absolute;inset:0;background:radial-gradient(closest-side,rgba(220,196,160,.13),transparent 72%)}
+.emblem{position:relative;width:min(100%,420px);height:auto;color:var(--gold);display:block;margin:0 auto}
+.emblem .d{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s cubic-bezier(.45,0,.2,1) forwards}
+.d1{animation-delay:.15s}.d2{animation-delay:.45s}.d3{animation-delay:.85s}.d4{animation-delay:1s}.d5{animation-delay:1.15s}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.emblem .d{animation:none;stroke-dashoffset:0}}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:28px}.hero-art{order:-1;padding:8px 0 0}.emblem{width:min(62%,230px)}}
+
+/* Places line */
+.places{padding:26px 0;border-bottom:1px solid var(--rule)}
+.places ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;row-gap:8px}
+.places li{display:flex;align-items:center;font:italic 500 clamp(22px,2.2vw,28px)/1.2 var(--display);color:var(--ink)}
+.places li+li::before{content:"";display:inline-block;width:26px;height:10px;margin:0 18px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 10'%3E%3Cpath d='M1 7 Q7 1 14 7 T27 7' fill='none' stroke='%23CDB58C' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat}
+
+/* Layouts */
+.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:clamp(32px,5vw,72px)}
+.pair>div{border-top:2px solid var(--gold-light);padding-top:26px}
+.pair h3{font:500 clamp(28px,2.6vw,36px)/1.12 var(--display);margin:0 0 14px}
+.pair p{color:var(--text);margin:0 0 24px}
+.split{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:clamp(28px,5vw,80px);align-items:start}
+@media (max-width:900px){.split{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:1px;padding:1px}
+.tiles>div{background:var(--off);padding:28px 26px 30px;box-shadow:0 0 0 1px var(--gold-light)}
+.steps{grid-template-columns:repeat(auto-fit,minmax(min(100%,196px),1fr))}
+.steps>div{padding:26px 22px 28px}
+.tiles p{margin:0;color:var(--text);font-size:17px}
+.num{display:block;font:500 44px/1 var(--display);color:var(--ink);margin-bottom:14px}
+.num::after{content:"";display:block;width:28px;height:2px;background:var(--gold-light);margin-top:10px}
+.dept{display:block;font-size:15px;color:var(--gold-ink);margin-bottom:6px}
+.articles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(32px,4vw,56px) clamp(28px,4vw,48px)}
+.art{border-top:1px solid var(--gold-light);padding-top:20px}
+.art p{margin:0;color:var(--text)}
+.ref{display:block;margin-top:12px;font-size:15px;color:var(--muted);font-style:italic}
+.myths{margin:0;border-top:1px solid var(--rule)}
+.myths>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:12px 48px;padding:26px 0;border-bottom:1px solid var(--rule)}
+.myths dt{font:italic 500 clamp(23px,2.1vw,28px)/1.25 var(--display);color:var(--ink)}
+.myths dd{margin:0;color:var(--text)}
+@media (max-width:720px){.myths>div{grid-template-columns:1fr}}
+.panel{margin-top:44px;border:1px solid var(--gold-light);background:var(--paper);padding:26px 30px;max-width:900px}
+.panel p{margin:0;color:var(--text)}
+ul.check{list-style:none;margin:16px 0 0;padding:0}
+ul.check li{position:relative;padding:12px 0 12px 30px;border-bottom:1px solid var(--rule);color:var(--text)}
+ul.check li::before{content:"";position:absolute;left:2px;top:25px;width:14px;height:2px;background:var(--gold-light)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:clamp(28px,4vw,64px)}
+
+/* Simulator */
+.sim{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,64px);align-items:start}
+@media (max-width:900px){.sim{grid-template-columns:1fr}}
+.card{background:var(--paper);color:var(--ink);padding:clamp(24px,3vw,36px);border-radius:2px}
+.field{margin-bottom:24px}
+.field>label,.field legend{display:block;font:600 17px/1.3 var(--body);color:var(--ink);margin-bottom:8px;padding:0}
+fieldset.field{border:0;margin:0 0 24px;padding:0;min-width:0}
+.input{width:100%;min-height:54px;padding:10px 14px;font:400 18px/1.4 var(--body);color:var(--ink);background:#fff;border:1.5px solid #8C93AB;border-radius:2px}
+.input:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(220,196,160,.65)}
+textarea.input{min-height:130px;resize:vertical}
+input[type=range]{width:100%;height:36px;accent-color:var(--navy);margin:0}
+.seg{display:inline-flex;flex-wrap:wrap;border:1.5px solid #8C93AB;border-radius:2px;overflow:hidden}
+.seg label{position:relative;cursor:pointer}
+.seg input{position:absolute;opacity:0;width:1px;height:1px}
+.seg span{display:block;padding:12px 20px;font-size:17px;color:var(--ink)}
+.seg label+label span{border-left:1.5px solid #8C93AB}
+.seg input:checked+span{background:var(--navy);color:#fff}
+.seg input:focus-visible+span{outline:3px solid var(--gold-ink);outline-offset:-3px}
+@media (max-width:520px){.seg.stack{display:flex;flex-direction:column}.seg.stack label+label span{border-left:0;border-top:1.5px solid #8C93AB}}
+.result{background:var(--navy-deep);border:1px solid rgba(220,196,160,.55);padding:clamp(26px,3vw,40px);color:var(--on-navy)}
+.result h3{font:italic 500 27px/1.2 var(--display);color:var(--gold);margin:0 0 12px}
+.row{display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--rule-navy);font-variant-numeric:tabular-nums}
+.row span:first-child{color:var(--on-navy-muted)}
+.row.big{border:0;padding-top:20px}
+.row.big span:last-child{font:500 clamp(34px,3.4vw,46px)/1 var(--display);color:#fff}
+.row.big.gold span:last-child{color:var(--gold)}
+.result small{display:block;margin-top:20px;font-size:15px;line-height:1.55;color:var(--on-navy-muted)}
+
+/* FAQ */
+.faq{max-width:880px}
+.faq details{border-bottom:1px solid var(--rule)}
+.faq details:first-child{border-top:1px solid var(--rule)}
+summary{cursor:pointer;list-style:none;position:relative;padding:20px 44px 20px 0;font:500 clamp(22px,2vw,27px)/1.3 var(--display);color:var(--ink)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:14px;font:400 34px/1 var(--display);color:var(--gold-ink)}
+details[open] summary::after{content:"–"}
+.ans{padding:0 0 24px;color:var(--text);max-width:68ch}
+.ans p{margin:0}
+
+/* Table */
+table{width:100%;border-collapse:collapse;font-size:17px}
+th,td{text-align:left;padding:14px 10px;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--text)}
+th{font:600 15px/1.3 var(--body);color:var(--ink);border-bottom:2px solid var(--gold-light)}
+
+/* Cabinet */
+.cab{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:clamp(28px,5vw,80px);align-items:start}
+@media (max-width:900px){.cab{grid-template-columns:1fr}}
+.portrait{aspect-ratio:4/5;max-width:420px;background:linear-gradient(170deg,var(--navy-soft),var(--navy) 55%,var(--navy-deep));border:1px solid var(--gold-light);display:grid;place-items:center;color:var(--gold);position:relative}
+.portrait svg{width:46%;height:auto;opacity:.55}
+.portrait mark{position:absolute;left:16px;right:16px;bottom:16px;font-size:15px;background:rgba(220,196,160,.2);color:#fff;outline:1px dashed rgba(220,196,160,.8)}
+
+/* Contact */
+.contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(32px,5vw,80px);align-items:start}
+@media (max-width:900px){.contact{grid-template-columns:1fr}}
+.coords{margin:32px 0 0;padding:0}
+.coords div{padding:16px 0;border-top:1px solid var(--rule-navy)}
+.coords dt{font-size:16px;color:var(--on-navy-muted);margin-bottom:4px}
+.coords dd{margin:0;font:500 clamp(24px,2.4vw,30px)/1.25 var(--display);color:#fff}
+.coords dd a{color:var(--gold);text-decoration:none}
+.coords dd a:hover{color:#fff}
+.coords dd.plain{font:400 18px/1.5 var(--body);color:var(--on-navy-2)}
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:15px;line-height:1.5;color:var(--text);margin-bottom:22px}
+.consent input{width:22px;height:22px;margin-top:3px;flex:none;accent-color:var(--navy)}
+.band .card a{color:var(--gold-ink)}
+.status{margin:14px 0 0;font-size:16px}
+.status.ok{color:#1F6B3A}.status.err{color:#A3261A}
+.hp{position:absolute;left:-9999px}
+
+/* Footer */
+.foot{background:var(--navy-deep);color:var(--on-navy-muted);padding:56px 0 36px;font-size:15px}
+.foot .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:32px 48px;align-items:start}
+.foot .logo{margin-bottom:14px}
+.foot .logo b{font-size:15px}
+.foot p{margin:0 0 .6em}
+.foot ul{list-style:none;margin:0;padding:0}
+.foot li{margin:6px 0}
+.foot a{color:var(--on-navy-2)}
+.foot a:hover{color:#fff}
+.legal{margin-top:44px;padding-top:24px;border-top:1px solid var(--rule-navy);max-width:980px}
+.legal h3{font:600 17px/1.3 var(--body);color:var(--on-navy);margin:0 0 8px}
+.legal p{margin:0 0 .7em}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="mark" viewBox="0 0 200 112">
+    <g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M56 84 Q86 84 100 46 Q114 84 144 84"/>
+      <path d="M30 84 Q54 84 65 62 Q76 84 90 84"/>
+      <path d="M110 84 Q124 84 135 62 Q146 84 170 84"/>
+      <path d="M30 93 H170"/>
+      <path d="M42 101 H158"/>
+      <circle cx="100" cy="34" r="22"/>
+    </g>
+  </symbol>
+  <symbol id="wave" viewBox="0 0 72 12">
+    <path d="M1 9 Q10 1 19 9 T37 9 T55 9 T71 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  </symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#accueil" aria-label="Océan Viager, retour en haut de page">
+      <svg aria-hidden="true"><use href="#mark"/></svg>
+      <b>Ocean Viager</b>
+    </a>
+    <a class="call" href="tel:+33500000000">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>
+      <span class="tel"><mark class="todo">05 XX XX XX XX</mark></span><span class="lbl">Appeler</span>
+    </a>
+  </div>
+  <div class="menu-wrap">
+  <nav class="menu" aria-label="Navigation principale">
+    <ul>
+      <li><a href="#comprendre">Comprendre le viager</a></li>
+      <li><a href="#vendre">Vendre</a></li>
+      <li><a href="#acquerir">Acquérir</a></li>
+      <li><a href="#simulateur">Simulateur</a></li>
+      <li><a href="#questions">Questions fréquentes</a></li>
+      <li><a href="#territoire">Territoire</a></li>
+      <li><a href="#honoraires">Honoraires</a></li>
+      <li><a href="#cabinet">Le cabinet</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+<!-- ACCUEIL -->
+<section id="accueil" class="hero band">
+  <div class="wrap">
+    <div>
+      <h1>Le viager, un contrat entre deux générations.</h1>
+      <p class="lead">Un cabinet indépendant qui accompagne vendeurs et acquéreurs, de la côte basque à Pau. Une règle : le contrat est compris par les deux parties avant d'être signé.</p>
+      <div class="btns">
+        <a class="btn btn-gold" href="#vendre">Je souhaite vendre</a>
+        <a class="btn btn-outline" href="#acquerir">Je souhaite acquérir</a>
+      </div>
+      <p class="note">Vous accompagnez un parent ? Vous êtes les bienvenus au premier entretien, nous le recommandons même.</p>
+    </div>
+    <div class="hero-art">
+      <svg class="emblem" viewBox="0 0 200 112" aria-hidden="true" focusable="false">
+        <g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+          <path class="d d1" pathLength="1" d="M56 84 Q86 84 100 46 Q114 84 144 84"/>
+          <path class="d d2" pathLength="1" d="M30 84 Q54 84 65 62 Q76 84 90 84"/>
+          <path class="d d2" pathLength="1" d="M110 84 Q124 84 135 62 Q146 84 170 84"/>
+          <path class="d d3" pathLength="1" d="M30 93 H170"/>
+          <path class="d d4" pathLength="1" d="M42 101 H158"/>
+          <circle class="d d5" pathLength="1" cx="100" cy="34" r="22"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="places">
+  <div class="wrap">
+    <ul>
+      <li>Biarritz</li><li>Bayonne</li><li>Anglet</li><li>Saint-Jean-de-Luz</li><li>Hossegor</li><li>Capbreton</li><li>Dax</li><li>Pau</li><li>Orthez</li>
+    </ul>
+  </div>
+</div>
+
+<section class="block">
+  <div class="wrap pair">
+    <div>
+      <h3>Rester chez soi, avec un capital et un revenu à vie.</h3>
+      <p>Vous convertissez la valeur de votre logement en un capital versé à la signature (le bouquet) et en une rente mensuelle, sans déménager. Votre droit de rester chez vous est inscrit dans l'acte de vente.</p>
+      <a class="btn btn-outline" href="#vendre">Vendre en viager</a>
+    </div>
+    <div>
+      <h3>Se constituer un patrimoine sans emprunter.</h3>
+      <p>Vous achetez un bien à un prix tenant compte de l'occupation, payé en partie dans le temps, sans crédit bancaire. En contrepartie, vous assurez chaque mois une partie des revenus d'une personne, aussi longtemps qu'elle vit.</p>
+      <a class="btn btn-outline" href="#acquerir">Acquérir en viager</a>
+    </div>
+  </div>
+</section>
+
+<section class="block lined">
+  <div class="wrap split">
+    <div class="shead" style="margin-bottom:0">
+      <p class="sname">Notre méthode</p>
+      <h2>La confiance se construit clause par clause.</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+    </div>
+    <div class="tiles">
+      <div><h3>Un contrat lu à deux voix</h3><p>Chaque clause est expliquée au vendeur et à l'acquéreur, séparément puis ensemble. Personne ne signe ce qu'il ne saurait pas expliquer avec ses propres mots.</p></div>
+      <div><h3>Une estimation écrite et motivée</h3><p>Valeur du bien, décote d'occupation, bouquet et rente sont calculés à partir de ventes comparables et de tables d'espérance de vie, puis remis par écrit.</p></div>
+      <div><h3>Le notaire avant la mise en vente</h3><p>Le montage est soumis au notaire du vendeur avant la première visite. Aucun bien n'est présenté sans son avis.</p></div>
+      <div><h3>Un suivi après la signature</h3><p>Indexation annuelle de la rente, répartition des charges, travaux : nous restons l'interlocuteur des deux parties pendant toute la durée du contrat.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPRENDRE -->
+<section id="comprendre" class="block lined">
+  <div class="wrap">
+    <div class="shead">
+      <p class="sname">Comprendre le viager</p>
+      <h2>Le viager, article par article</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+      <p class="lead">Le viager repose sur la rente viagère, encadrée par le Code civil depuis 1804 (articles 1968 à 1983). C'est un contrat ancien, stable et bien connu des notaires. Ce qui manque le plus souvent, c'est une explication claire.</p>
+    </div>
+    <div class="articles">
+      <div class="art">
+        <h3>Le principe</h3>
+        <p>Le vendeur (le crédirentier) cède son bien. L'acquéreur (le débirentier) paie une partie du prix à la signature, le bouquet, puis verse une rente jusqu'au décès du vendeur. Le montant total payé n'est pas connu d'avance : c'est l'aléa, sans lequel le contrat n'est pas valable.</p>
+      </div>
+      <div class="art">
+        <h3>Occupé ou libre</h3>
+        <p>En viager occupé, le plus courant, le vendeur garde un droit d'usage et d'habitation à vie, ou l'usufruit. Le prix tient compte de cette occupation : c'est la décote, qui dépend de l'âge du vendeur. En viager libre, l'acquéreur dispose du bien immédiatement et le prix est proche de la valeur du marché.</p>
+      </div>
+      <div class="art">
+        <h3>Bouquet et rente</h3>
+        <p>Le bouquet représente le plus souvent entre 15 et 30 % de la valeur occupée ; il est librement négocié. Le reste est converti en rente selon l'espérance de vie du vendeur et un taux de rendement. Une clause d'indexation, prévue dans le contrat, protège la rente contre l'inflation.</p>
+      </div>
+      <div class="art">
+        <h3>Les protections du vendeur</h3>
+        <p>Le paiement est garanti par l'hypothèque légale spéciale du vendeur (anciennement « privilège du vendeur »). Une clause résolutoire permet d'annuler la vente en cas d'impayé : elle est indispensable, car sans elle, le défaut de paiement ne suffit pas à obtenir l'annulation. Une clause pénale permet au vendeur de conserver le bouquet et les rentes déjà versées.</p>
+        <span class="ref">Articles 1977 et 1978 du Code civil ; article 2402 pour l'hypothèque.</span>
+      </div>
+      <div class="art">
+        <h3>Fiscalité</h3>
+        <p>Pour le vendeur, seule une fraction de la rente est imposable, selon son âge à la signature : 30 % au-delà de 69 ans, 40 % entre 60 et 69 ans. La plus-value éventuelle est exonérée s'il s'agit de la résidence principale. L'acquéreur règle les frais d'acte, calculés sur le prix (bouquet et rente capitalisée).</p>
+        <span class="ref">Article 158-6 du Code général des impôts. À confirmer avec le notaire pour chaque situation.</span>
+      </div>
+      <div class="art">
+        <h3>Charges et travaux</h3>
+        <p>Les gros travaux (toiture, murs porteurs) reviennent en principe à l'acquéreur, l'entretien courant à l'occupant. La taxe foncière et les charges de copropriété sont réparties par le contrat, souvent à la charge de l'acquéreur. Tout se négocie et s'écrit avant la signature.</p>
+        <span class="ref">Articles 605 et 606 du Code civil.</span>
+      </div>
+    </div>
+
+    <div style="margin-top:clamp(56px,7vw,88px)">
+      <h3 style="font-size:clamp(28px,2.8vw,36px);font-weight:500;margin-bottom:24px">Les idées reçues</h3>
+      <dl class="myths">
+        <div><dt>« Le viager, c'est parier sur la mort de quelqu'un. »</dt><dd>L'aléa est juridique, pas moral : il protège le vendeur en interdisant un prix fixé à sa défaveur. Un acquéreur sérieux raisonne sur la durée, comme pour tout placement immobilier.</dd></div>
+        <div><dt>« Mes enfants n'auront rien. »</dt><dd>Le bouquet peut leur être donné de votre vivant. La rente finance votre maintien à domicile, ce qui évite souvent une vente dans l'urgence plus tard. Et vos enfants peuvent participer à toutes les étapes.</dd></div>
+        <div><dt>« Si l'acquéreur ne paie plus, je perds tout. »</dt><dd>Avec une clause résolutoire, la vente est annulée et vous récupérez votre bien. Avec une clause pénale, vous conservez le bouquet et les rentes déjà perçues. Nous vérifions la présence de ces deux clauses dans chaque acte.</dd></div>
+        <div><dt>« Si l'acquéreur décède, la rente s'arrête. »</dt><dd>Non. L'obligation de payer la rente passe à ses héritiers, avec le bien.</dd></div>
+        <div><dt>« C'est réservé aux grandes villes. »</dt><dd>La côte basque et les Landes attirent des acquéreurs qui préparent une installation à dix ou quinze ans. La demande y est réelle, à l'intérieur des terres comme sur le littoral.</dd></div>
+      </dl>
+    </div>
+
+    <div class="panel">
+      <p><strong>D'autres solutions existent.</strong> La vente à terme (un prix fixe payé en mensualités sur une durée définie, sans aléa) ou la vente de la nue-propriété (le prix est versé en une fois, vous gardez l'usufruit) conviennent mieux à certaines situations. Nous les présentons dès le premier entretien quand elles sont plus adaptées.</p>
+    </div>
+  </div>
+</section>
+
+<!-- VENDRE -->
+<section id="vendre" class="block lined">
+  <div class="wrap">
+    <div class="shead">
+      <p class="sname">Vendre en viager</p>
+      <h2>Rester chez soi, avec des revenus garantis</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+      <p class="lead">Vous êtes propriétaire, généralement après 70 ans, et votre patrimoine est dans vos murs. Le viager occupé permet de le convertir en capital et en revenus mensuels, sans quitter votre maison et sans dépendre d'une banque.</p>
+    </div>
+    <div class="tiles steps">
+      <div><span class="num">1</span><h3>Premier entretien</h3><p>Chez vous, sans engagement, avec un proche si vous le souhaitez. Nous écoutons votre situation, vos besoins de revenus et vos projets pour votre famille.</p></div>
+      <div><span class="num">2</span><h3>Estimation écrite</h3><p>Valeur du bien, décote, bouquet et rente, avec plusieurs répartitions possibles. Vous choisissez l'équilibre qui vous convient.</p></div>
+      <div><span class="num">3</span><h3>Avis du notaire</h3><p>Votre notaire valide le montage avant toute mise en vente. Nous travaillons avec le vôtre, ou vous aidons à en choisir un.</p></div>
+      <div><span class="num">4</span><h3>Choix de l'acquéreur</h3><p>Nous vérifions la solidité financière de chaque candidat et organisons une rencontre. Vous gardez le dernier mot.</p></div>
+      <div><span class="num">5</span><h3>Signature et suivi</h3><p>Acte chez le notaire, inscription de vos garanties, puis suivi de l'indexation et des charges chaque année.</p></div>
+    </div>
+    <div class="two" style="margin-top:clamp(48px,6vw,72px)">
+      <div>
+        <h3>Ce que vous conservez</h3>
+        <ul class="check">
+          <li>Votre logement, à vie, avec un droit inscrit dans l'acte</li>
+          <li>Un capital à la signature, la plus-value étant exonérée pour une résidence principale</li>
+          <li>Une rente mensuelle indexée, dont 30 % seulement est imposable si vous avez plus de 69 ans</li>
+          <li>La possibilité de partir plus tard (en maison de retraite par exemple) contre une rente majorée, si le contrat le prévoit</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Ce que vous ne portez plus</h3>
+        <ul class="check">
+          <li>Les gros travaux, à la charge de l'acquéreur</li>
+          <li>Le plus souvent, la taxe foncière, selon ce que prévoit le contrat</li>
+          <li>L'inquiétude d'un patrimoine immobilisé face à des revenus insuffisants</li>
+          <li>La gestion d'un éventuel déménagement contraint</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACQUÉRIR -->
+<section id="acquerir" class="block lined">
+  <div class="wrap">
+    <div class="shead">
+      <p class="sname">Acquérir en viager</p>
+      <h2>Un patrimoine sur la côte, sans emprunter</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+      <p class="lead">Acheter en viager, c'est acquérir un bien à un prix tenant compte de l'occupation, payé en partie dans le temps, sans crédit. C'est aussi un engagement envers une personne précise, dont vous assurez une partie des revenus jusqu'à la fin de sa vie. Nous ne travaillons qu'avec des acquéreurs qui acceptent les deux.</p>
+    </div>
+    <div class="articles">
+      <div class="art"><h3>L'intérêt patrimonial</h3><p>En viager occupé, la valeur retenue est inférieure à la valeur libre, d'autant plus que le vendeur est âgé. Le paiement s'étale sans intérêts bancaires ni assurance emprunteur. Les frais d'acte sont dus à la signature ; les gros travaux et, souvent, la taxe foncière sont à votre charge.</p></div>
+      <div class="art"><h3>L'engagement humain</h3><p>La rente doit être versée chaque mois, sans retard, quelles que soient vos circonstances, et elle passe à vos héritiers si vous décédez. En retour, vous achetez un bien habité par quelqu'un qui y tient. Les meilleurs contrats sont ceux où acquéreur et vendeur se sont rencontrés et se sont choisis.</p></div>
+      <div class="art"><h3>Ce que nous vérifions</h3><p>Votre capacité à verser la rente sur vingt ans ou plus, y compris en cas de baisse de revenus. Nous demandons une épargne de précaution couvrant au moins douze mois de rente. Les vendeurs le savent, et c'est ce qui fonde leur confiance.</p></div>
+    </div>
+    <div class="panel">
+      <p><strong>Une règle à connaître :</strong> le contrat est sans effet si le vendeur décède, dans les vingt jours suivant la signature, d'une maladie dont il était déjà atteint (article 1975 du Code civil). C'est une protection de l'aléa, pas une formalité.</p>
+    </div>
+    <div class="btns" style="margin-top:36px">
+      <a class="btn btn-navy" href="#contact">Être informé des biens disponibles</a>
+    </div>
+    <p class="muted" style="margin:16px 0 0;font-size:16px;max-width:62ch">Les biens ne sont jamais publiés en ligne, par respect pour les personnes qui y vivent. Ils sont présentés après un premier entretien.</p>
+  </div>
+</section>
+
+<!-- SIMULATEUR -->
+<section id="simulateur" class="block band">
+  <div class="wrap">
+    <div class="shead">
+      <p class="sname">Simulateur</p>
+      <h2>Un premier ordre de grandeur</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+      <p class="lead">Ce calcul utilise des tables d'espérance de vie et un taux de rendement moyen. Il donne une idée, pas une estimation : le bouquet et la rente réels dépendent du bien, du marché local et de la négociation.</p>
+    </div>
+    <div class="sim">
+      <form id="simForm" class="card" onsubmit="return false">
+        <div class="field">
+          <label for="valeur">Valeur du bien libre de toute occupation (€)</label>
+          <input class="input" id="valeur" type="number" inputmode="numeric" min="50000" step="10000" value="450000">
+        </div>
+        <div class="field">
+          <label for="age">Âge du vendeur : <span id="ageOut">80</span> ans</label>
+          <input id="age" type="range" min="65" max="95" step="1" value="80">
+        </div>
+        <fieldset class="field">
+          <legend>Le vendeur est</legend>
+          <div class="seg">
+            <label><input type="radio" name="sexe" value="F" checked><span>une femme</span></label>
+            <label><input type="radio" name="sexe" value="M"><span>un homme</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="field">
+          <legend>Type de viager</legend>
+          <div class="seg">
+            <label><input type="radio" name="type" value="occupe" checked><span>Occupé</span></label>
+            <label><input type="radio" name="type" value="libre"><span>Libre</span></label>
+          </div>
+        </fieldset>
+        <div class="field" style="margin-bottom:0">
+          <label for="bouquet">Bouquet : <span id="bqOut">30</span> % de la valeur retenue</label>
+          <input id="bouquet" type="range" min="0" max="60" step="5" value="30">
+        </div>
+      </form>
+      <div class="result" aria-live="polite">
+        <h3>Résultat indicatif</h3>
+        <div class="row"><span>Espérance de vie retenue</span><span id="rEsp">—</span></div>
+        <div class="row"><span>Décote d'occupation</span><span id="rDec">—</span></div>
+        <div class="row"><span id="rValLbl">Valeur retenue</span><span id="rVal">—</span></div>
+        <div class="row big"><span>Bouquet</span><span id="rBq">—</span></div>
+        <div class="row big gold"><span>Rente mensuelle</span><span id="rRente">—</span></div>
+        <small id="rFisc"></small>
+        <small>Méthode simplifiée : décote et rente calculées au taux de 3,5&nbsp;% sur l'espérance de vie (tables INSEE arrondies). Hors frais d'acte. Document sans valeur contractuelle. <a href="#contact">Demander une étude personnalisée</a>.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUESTIONS -->
+<section id="questions" class="block">
+  <div class="wrap">
+    <div class="shead">
+      <p class="sname">Questions fréquentes</p>
+      <h2>Ce que l'on nous demande le plus</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+    </div>
+    <div class="faq">
+      <details><summary>Et si je dois partir en maison de retraite ?</summary><div class="ans"><p>Le contrat peut prévoir une clause de libération anticipée : vous quittez le logement, l'acquéreur en reprend la jouissance et votre rente est augmentée, souvent de 30 à 50 %. Ce pourcentage se négocie à la signature ; c'est une clause que nous recommandons systématiquement.</p></div></details>
+      <details><summary>Mes enfants peuvent-ils s'y opposer ?</summary><div class="ans"><p>Non, vous restez libre de vendre votre bien. Mais nous vous conseillons de les associer à la démarche : un projet compris par la famille se passe mieux pour tout le monde. Le vendeur doit par ailleurs être en pleine capacité de consentir au moment de la signature.</p></div></details>
+      <details><summary>Que se passe-t-il si l'acquéreur décède avant moi ?</summary><div class="ans"><p>Ses héritiers reçoivent le bien et l'obligation de vous payer la rente. Rien ne change pour vous.</p></div></details>
+      <details><summary>La rente suit-elle l'inflation ?</summary><div class="ans"><p>Oui, si le contrat contient une clause d'indexation, ce que nous exigeons. La rente est alors revalorisée chaque année selon un indice choisi à la signature, le plus souvent l'indice des prix à la consommation de l'INSEE.</p></div></details>
+      <details><summary>Qui paie les frais de notaire ?</summary><div class="ans"><p>L'acquéreur, comme pour toute vente. Ils sont calculés sur le prix, c'est-à-dire le bouquet augmenté de la valeur de la rente.</p></div></details>
+      <details><summary>Peut-on vendre en viager un appartement en copropriété ?</summary><div class="ans"><p>Oui. Le contrat répartit alors les charges de copropriété entre vendeur et acquéreur, en général l'entretien courant pour l'occupant et les travaux votés pour l'acquéreur.</p></div></details>
+      <details><summary>Combien de temps faut-il pour vendre ?</summary><div class="ans"><p>Comptez plusieurs mois entre le premier entretien et la signature : estimation, avis du notaire, recherche et vérification de l'acquéreur, rencontre, compromis puis acte. Nous préférons prendre ce temps plutôt que de signer un contrat mal compris.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- TERRITOIRE -->
+<section id="territoire" class="block lined">
+  <div class="wrap">
+    <div class="shead">
+      <p class="sname">Territoire</p>
+      <h2>De l'océan au gave de Pau</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+      <p class="lead">Un périmètre volontairement limité, que nous connaissons commune par commune, pour pouvoir rester présents après la signature.</p>
+    </div>
+    <div class="tiles">
+      <div><span class="dept">Pyrénées-Atlantiques</span><h3>Côte basque</h3><p>Biarritz, Bayonne, Anglet, Bidart, Guéthary, Saint-Jean-de-Luz, Ciboure, Urrugne, Hendaye.</p></div>
+      <div><span class="dept">Pyrénées-Atlantiques</span><h3>Pays Basque intérieur</h3><p>Ustaritz, Cambo-les-Bains, Espelette, Hasparren, Saint-Pée-sur-Nivelle, Saint-Palais, Saint-Jean-Pied-de-Port.</p></div>
+      <div><span class="dept">Landes</span><h3>Sud des Landes</h3><p>Hossegor, Capbreton, Seignosse, Labenne, Saint-Vincent-de-Tyrosse, Dax, Saint-Paul-lès-Dax, Peyrehorade.</p></div>
+      <div><span class="dept">Pyrénées-Atlantiques</span><h3>Pau et Béarn</h3><p>Pau, Lescar, Billère, Jurançon, Gan, Lons, Orthez, Oloron-Sainte-Marie, Nay.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HONORAIRES -->
+<section id="honoraires" class="block lined">
+  <div class="wrap split">
+    <div class="shead" style="margin-bottom:0">
+      <p class="sname">Honoraires</p>
+      <h2>Connus à l'avance, dus à la signature</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+    </div>
+    <div>
+      <p class="lead" style="margin:0 0 28px">Nos honoraires sont indiqués dans le mandat, connus des deux parties dès le départ, et ne sont dus qu'à la signature de l'acte authentique. Le premier entretien et l'estimation sont gratuits.</p>
+      <table>
+        <thead><tr><th scope="col">Prestation</th><th scope="col">Honoraires TTC</th><th scope="col">À la charge de</th></tr></thead>
+        <tbody>
+          <tr><td>Premier entretien et estimation écrite</td><td>Gratuit</td><td>—</td></tr>
+          <tr><td>Vente en viager occupé ou libre</td><td><mark class="todo">… % TTC de la valeur retenue</mark></td><td><mark class="todo">vendeur / acquéreur</mark></td></tr>
+          <tr><td>Montant minimum</td><td><mark class="todo">… € TTC</mark></td><td><mark class="todo">…</mark></td></tr>
+          <tr><td>Suivi annuel après la signature</td><td><mark class="todo">inclus / … € TTC par an</mark></td><td><mark class="todo">…</mark></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- CABINET -->
+<section id="cabinet" class="block lined">
+  <div class="wrap cab">
+    <div>
+      <div class="portrait" role="img" aria-label="Portrait de Charlotte, à insérer">
+        <svg aria-hidden="true"><use href="#mark"/></svg>
+        <mark>Portrait de Charlotte à insérer</mark>
+      </div>
+    </div>
+    <div>
+      <div class="shead">
+        <p class="sname">Le cabinet</p>
+        <h2>Un cabinet indépendant, une seule interlocutrice</h2>
+        <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+        <p class="lead">Océan Viager a été fondé par Charlotte, installée sur la côte basque. Le cabinet ne fait que du viager, et seulement sur son territoire, pour pouvoir suivre chaque dossier de bout en bout, de l'estimation aux années qui suivent la signature.</p>
+        <p class="muted" style="margin-top:16px"><mark class="todo">Quelques lignes sur le parcours de Charlotte : formation, expérience, ce qui l'a amenée au viager.</mark></p>
+      </div>
+      <h3>Ce à quoi nous nous engageons</h3>
+      <ul class="check">
+        <li>Ne jamais présenter un bien sans l'avis écrit du notaire sur le montage.</li>
+        <li>Proposer au vendeur d'associer un proche à l'entretien d'estimation.</li>
+        <li>Refuser tout acquéreur dont la capacité à verser la rente dans la durée n'est pas établie.</li>
+        <li>Organiser une rencontre entre vendeur et acquéreur avant tout compromis.</li>
+        <li>Présenter les alternatives au viager quand elles sont plus adaptées.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="block band">
+  <div class="wrap contact">
+    <div>
+      <p class="sname">Contact</p>
+      <h2>Un premier entretien, sans engagement</h2>
+      <svg class="orn" aria-hidden="true"><use href="#wave"/></svg>
+      <p class="lead">Nous nous déplaçons chez vous dans tout le Pays Basque, le sud des Landes et le Béarn. Les échanges restent confidentiels.</p>
+      <dl class="coords">
+        <div><dt>Téléphone</dt><dd><a href="tel:+33500000000"><mark class="todo">05 XX XX XX XX</mark></a></dd></div>
+        <div><dt>Courriel</dt><dd><a href="mailto:contact@oceanviager.com">contact@oceanviager.com</a></dd></div>
+        <div><dt>Rendez-vous</dt><dd class="plain">À votre domicile ou à notre bureau, du lundi au vendredi.</dd></div>
+      </dl>
+    </div>
+    <form class="card" id="contactForm" action="https://formspree.io/f/A_COMPLETER" method="POST" novalidate>
+      <fieldset class="field">
+        <legend>Vous êtes</legend>
+        <div class="seg stack">
+          <label><input type="radio" name="profil" value="Vendeur" checked><span>Vendeur</span></label>
+          <label><input type="radio" name="profil" value="Acquéreur"><span>Acquéreur</span></label>
+          <label><input type="radio" name="profil" value="Proche d'un vendeur"><span>Proche d'un vendeur</span></label>
+        </div>
+      </fieldset>
+      <div class="field"><label for="nom">Nom</label><input class="input" id="nom" name="nom" type="text" autocomplete="name" required></div>
+      <div class="field"><label for="tel">Téléphone</label><input class="input" id="tel" name="telephone" type="tel" autocomplete="tel"></div>
+      <div class="field"><label for="email">Courriel</label><input class="input" id="email" name="email" type="email" autocomplete="email"></div>
+      <div class="field"><label for="commune">Commune du bien ou recherchée</label><input class="input" id="commune" name="commune" type="text" placeholder="ex. Saint-Jean-de-Luz"></div>
+      <div class="field"><label for="msg">Votre situation, en quelques mots</label><textarea class="input" id="msg" name="message"></textarea></div>
+      <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label class="consent"><input type="checkbox" name="consentement" value="oui" required><span>J'accepte que mes coordonnées soient utilisées pour me recontacter au sujet de ma demande. Elles ne sont ni cédées ni utilisées à d'autres fins (voir <a href="#donnees">données personnelles</a>).</span></label>
+      <button type="submit" class="btn btn-navy">Envoyer ma demande</button>
+      <p class="status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="#accueil" aria-label="Océan Viager, retour en haut de page">
+          <svg aria-hidden="true"><use href="#mark"/></svg>
+          <b>Ocean Viager</b>
+        </a>
+        <p>Le viager, un contrat entre deux générations. Pays Basque, sud des Landes, Pau et Béarn.</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#comprendre">Comprendre le viager</a></li>
+          <li><a href="#vendre">Vendre</a></li>
+          <li><a href="#acquerir">Acquérir</a></li>
+          <li><a href="#simulateur">Simulateur</a></li>
+          <li><a href="#questions">Questions fréquentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#territoire">Territoire</a></li>
+          <li><a href="#honoraires">Honoraires</a></li>
+          <li><a href="#cabinet">Le cabinet</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#mentions">Mentions légales</a></li>
+        </ul>
+      </div>
+      <div>
+        <p><mark class="todo">05 XX XX XX XX</mark><br><a href="mailto:contact@oceanviager.com">contact@oceanviager.com</a></p>
+      </div>
+    </div>
+
+    <div class="legal" id="mentions">
+      <h3>Mentions légales</h3>
+      <p>Éditeur : <mark class="todo">nom, forme juridique, capital, adresse du siège, SIREN / RCS, directrice de la publication</mark>.</p>
+      <p>Carte professionnelle « Transaction sur immeubles et fonds de commerce » n° <mark class="todo">CPI …</mark> délivrée par la CCI <mark class="todo">…</mark>. Garantie financière : <mark class="todo">organisme, adresse, montant</mark> (ou « sans détention de fonds »). Assurance responsabilité civile professionnelle : <mark class="todo">assureur, n° de contrat</mark>.</p>
+      <p>Médiateur de la consommation : <mark class="todo">nom et site du médiateur</mark>. Hébergeur : <mark class="todo">nom, adresse, téléphone</mark>.</p>
+      <h3 id="donnees" style="margin-top:18px">Données personnelles</h3>
+      <p>Les informations du formulaire servent uniquement à répondre à votre demande et sont conservées trois ans au plus après le dernier échange. Vous pouvez y accéder, les faire rectifier ou supprimer en écrivant à contact@oceanviager.com. Vous pouvez saisir la CNIL (cnil.fr). Ce site ne dépose pas de cookies de suivi.</p>
+      <p style="margin-top:18px">© 2026 Océan Viager</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* ---------- Simulateur ---------- */
+  var TAUX = 0.035;
+  var TABLES = {
+    F:[[65,23.2],[70,19.0],[75,15.1],[80,11.5],[85,8.3],[90,5.7],[95,3.9]],
+    M:[[65,19.5],[70,15.8],[75,12.4],[80,9.4],[85,6.8],[90,4.8],[95,3.4]]
+  };
+  var eur = new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+  function esperance(age,sexe){
+    var t = TABLES[sexe];
+    if(age<=t[0][0]) return t[0][1];
+    for(var i=0;i<t.length-1;i++){
+      if(age>=t[i][0] && age<=t[i+1][0]){
+        var k=(age-t[i][0])/(t[i+1][0]-t[i][0]);
+        return t[i][1]+k*(t[i+1][1]-t[i][1]);
+      }
+    }
+    return t[t.length-1][1];
+  }
+  function $(id){return document.getElementById(id)}
+  function checked(name){var e=document.querySelector('input[name="'+name+'"]:checked');return e?e.value:null}
+  function calc(){
+    var valeur=Math.max(0,Number($('valeur').value)||0);
+    var age=Number($('age').value), sexe=checked('sexe'), occupe=checked('type')==='occupe';
+    var pct=Number($('bouquet').value)/100;
+    $('ageOut').textContent=age; $('bqOut').textContent=Math.round(pct*100);
+    var esp=esperance(age,sexe);
+    var decote=occupe?1-Math.pow(1+TAUX,-esp):0;
+    var valRet=valeur*(1-decote);
+    var bq=valRet*pct;
+    var capital=valRet-bq;
+    var i=Math.pow(1+TAUX,1/12)-1, n=esp*12;
+    var rente=capital*i/(1-Math.pow(1+i,-n));
+    $('rEsp').textContent=esp.toFixed(1).replace('.',',')+' ans';
+    $('rDec').textContent=occupe?Math.round(decote*100)+' %':'aucune (viager libre)';
+    $('rValLbl').textContent=occupe?'Valeur occupée retenue':'Valeur libre retenue';
+    $('rVal').textContent=eur.format(valRet);
+    $('rBq').textContent=eur.format(bq);
+    $('rRente').textContent=eur.format(rente);
+    var frac=age>69?30:(age>=60?40:50);
+    $('rFisc').textContent='Part imposable de la rente pour le vendeur : '+frac+' % (soit '+eur.format(rente*frac/100)+' par mois à déclarer).';
+  }
+  ['valeur','age','bouquet'].forEach(function(id){$(id).addEventListener('input',calc)});
+  document.querySelectorAll('#simForm input[type=radio]').forEach(function(r){r.addEventListener('change',calc)});
+  calc();
+
+  /* ---------- Menu actif ---------- */
+  var links=[].slice.call(document.querySelectorAll('nav.menu a'));
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          links.forEach(function(a){
+            var on=a.getAttribute('href')==='#'+e.target.id;
+            a.classList.toggle('on',on);
+            if(on){a.setAttribute('aria-current','true');}else{a.removeAttribute('aria-current');}
+          });
+        }
+      });
+    },{rootMargin:'-40% 0px -55% 0px'});
+    links.forEach(function(a){var s=document.querySelector(a.getAttribute('href'));if(s)obs.observe(s)});
+  }
+
+  /* ---------- Formulaire ---------- */
+  var form=$('contactForm'), status=$('formStatus');
+  form.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    status.className='status';
+    var nom=form.nom.value.trim(), tel=form.telephone.value.trim(), mail=form.email.value.trim();
+    if(!nom){status.className='status err';status.textContent='Merci d\'indiquer votre nom.';form.nom.focus();return;}
+    if(!tel && !mail){status.className='status err';status.textContent='Merci d\'indiquer un téléphone ou un courriel pour que nous puissions vous rappeler.';form.telephone.focus();return;}
+    if(!form.consentement.checked){status.className='status err';status.textContent='Merci de cocher la case d\'accord pour que nous puissions vous recontacter.';return;}
+    if(form.action.indexOf('A_COMPLETER')!==-1){
+      status.className='status err';
+      status.textContent='Le formulaire n\'est pas encore relié à une messagerie. En attendant, écrivez à contact@oceanviager.com.';
+      return;
+    }
+    var btn=form.querySelector('button[type=submit]'); btn.disabled=true; status.textContent='Envoi en cours…';
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){
+        if(!r.ok) throw new Error();
+        form.reset(); status.className='status ok';
+        status.textContent='Merci, votre demande est bien partie. Nous vous rappelons sous deux jours ouvrés.';
+      })
+      .catch(function(){
+        status.className='status err';
+        status.textContent='L\'envoi n\'a pas abouti. Vous pouvez nous écrire directement à contact@oceanviager.com.';
+      })
+      .finally(function(){btn.disabled=false});
+  });
+})();
+</script>
+</body>
+</html>
